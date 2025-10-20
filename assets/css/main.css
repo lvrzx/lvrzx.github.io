@@ -2547,4 +2547,36 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+} 
+/*--------------------------------------------------------------
+# Certificates Section Custom Styling 
+--------------------------------------------------------------*/
+
+
+.resume .resume-section .sertifikat-container {
+    text-align: center; 
+    margin-top: 15px;
+    margin-bottom: 25px;
+    padding: 10px 0; 
+    overflow-x: auto; 
+    padding: 0 10px; 
+}
+
+.resume .resume-section .sertifikat-img {
+    max-width: 100%; 
+    height: auto;    
+    display: block;  
+    margin: 0 auto;  
+    
+    border: 1px solid color-mix(in srgb, var(--accent-color), transparent 85%);
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    
+    transition: transform 0.3s ease;
+}
+
+@media (max-width: 576px) {
+    .resume .resume-section .sertifikat-img {
+        max-width: 95%; 
+    }
 }
